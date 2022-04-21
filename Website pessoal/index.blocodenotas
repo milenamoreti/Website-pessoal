@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconcat.ico" type="image/x-icon">
+    <title>Home</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+   
+
+</head>
+<body>
+    
+    <menu class="importante">
+        <li> <a href="index.html">Home</a></li>
+        <li><a href="curriculo.html">Currículo</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="portifolio.html">Portfólio</a></li>
+        <li><a href="novidades.html">Novidades</a></li>
+    </menu>
+    
+    <h1>Milena Monteiro Rodrigues</h1>
+    <h2>Estudante de Ciência da Computação e Filosofia</h2>
+    <p classe="p1">Olá, seja bem-vindo(a) ao meu site, aqui vão algumas curiosidades sobre mim: tenho 22 anos. Sou graduada em filosofia
+        pela UFRJ, curso mestrado em filosfia em lógica das
+        magnitudes também na UFRJ e graduação em Ciência da Computação na UVA. Tenho 4 gatos: Tom Jobim, Jon Snow, Ava Gardner e Lilica.
+    Sou autista e tenho TDAH. Minha comida favorita é pizza.</p>
+    <p>Obrigado por visitar meu site!</p>
+    <div id="fotomilena">
+    <img id="imagem" src="myproject.png" alt="fotomilena">
+    </div>
+    <br>
+<button onclick="window.location.href=curriculo.html">Saiba Mais!</button>
+    <a href="curriculo.html" target="_self"></a>
+
+</body>
+</html>
